@@ -1,34 +1,49 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { navLink } from "../constants";
 import { Link } from "react-router-dom";
 import Menu from "../assets/menu.png";
 import Logo from "../assets/logo.png";
+import { CiSearch } from "react-icons/ci";
+import { FaUser } from "react-icons/fa6";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
+  useEffect(() => {
+    document.body.style.overflow = isOpen ? "hidden" : "auto";
+    return () => (document.body.style.overflow = "auto");
+  }, [isOpen]);
+
   return (
     <>
-      <img src={Logo} alt="ewf" />
-      <button
-        onClick={() => setIsOpen(true)}
-        className="fixed top-4 right-20 z-50 p-2 rounded-md bg-black focus:outline-none"
-        aria-label="Open menu"
-      >
-        <img src={Menu} alt="asd" />
-      </button>
+      <div className="relative flex items-center justify-between px-6 py-4 max-w-7xl">
+        <img src={Logo} alt="Logo" />
+
+        <div className="absolute top-4 right-6 flex items-center gap-6 z-50">
+          <FaUser className="text-white text-xl cursor-pointer" />
+          <CiSearch className="text-white text-xl cursor-pointer" />
+          <button
+            onClick={() => setIsOpen(!isOpen)}
+            className="p-2 rounded-md focus:outline-none text-white"
+            aria-label={isOpen ? "Close menu" : "Open menu"}
+            aria-expanded={isOpen}
+          >
+            {isOpen ? (
+              <span className="text-white text-3xl font-bold">&times;</span>
+            ) : (
+              <img src={Menu} alt="Menu" className="h-6 w-6" />
+            )}
+          </button>
+        </div>
+      </div>
 
       {isOpen && (
         <div className="fixed inset-0 bg-black bg-opacity-90 flex flex-col items-center justify-center z-40">
-          <button
-            onClick={() => setIsOpen(false)}
-            className="absolute top-6 right-6 text-white text-3xl font-bold focus:outline-none"
-            aria-label="Close menu"
+          <nav
+            className="space-y-8 text-white text-xl font-medium text-center"
+            role="navigation"
+            aria-label="Main menu"
           >
-            &times;
-          </button>
-
-          <nav className="space-y-8 text-white text-xl font-medium text-center">
             {navLink.map((item) => (
               <Link
                 key={item.route}

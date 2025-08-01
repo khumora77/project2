@@ -11,6 +11,7 @@ const App = () => {
 
   return (
     <div
+      className=""
       style={
         showBackground
           ? {
@@ -18,6 +19,7 @@ const App = () => {
               backgroundSize: "cover",
               backgroundPosition: "center",
               minHeight: "100vh",
+              height: "700px",
             }
           : {}
       }
@@ -25,7 +27,6 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* boshqa routelar */}
       </Routes>
     </div>
   );
