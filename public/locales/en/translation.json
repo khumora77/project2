@@ -1,0 +1,41 @@
+{
+  "welcome": "Welcome",
+  "home": "Home",
+  "about": "About Us",
+  "services": "Services",
+  "price": "Price",
+  "blog": "Blog",
+  "contact": "Contact",
+  "headings": {
+    "title": "Our",
+    "subtitle": "Best Logistic",
+    "tagline": "Company"
+  },
+  "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
+  "social": {
+    "facebook": "Facebook",
+    "twitter": "Twitter",
+    "linkedin": "LinkedIn",
+    "instagram": "Instagram"
+  },
+  "trusted_provider": "Trusted & Faster Logistic Service Provider",
+  "description1": "Dolores lorem lorem ipsum sit et ipsum. Sadip sea amet diam dolore sed et. Sit rebum labore sit sit ut vero no sit. Et elitr stet dolor sed sit et sed ipsum et kasd ut. Erat duo eos et erat sed diam duo",
+  "play_video": "Play Video",
+  "getQuote": "Get Quote",
+  "safe_faster": "Safe & Faster",
+  "logistics_services": "Logistics Services",
+  "tracking_id": "Tracking ID",
+  "track_trace": "Track & Trace",
+  "get_quote": "Get A Quote",
+  "learn_more": "Learn More",
+  "years_experience": "Years Experience",
+  "why_choose_us": "WHY CHOOSE US",
+  "services_title": "Faster, Safe and Trusted Logistics Services",
+  "services_description": "Dolores lorem lorem ipsum sit et ipsum. Sadip sea amet diam dolore sed et. Sit rebum labore sit sit ut vero no sit. Et elitr stet dolor sed sit et sed ipsum et kasd ut. Erat duo eos et erat sed diam duo",
+  "best_industry": "Best In Industry",
+  "best_industry_desc": "Industry-leading logistics solutions with 99.9% reliability",
+  "emergency_services": "Emergency Services",
+  "emergency_services_desc": "Rapid response teams available 24/7 for urgent shipments",
+  "customer_support": "24/7 Customer Support",
+  "customer_support_desc": "Dedicated support team always ready to assist you"
+}

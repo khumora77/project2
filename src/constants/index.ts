@@ -1,7 +1,8 @@
-export const navLink = [
-  { name: "Home", route: "/" },
-  { name: "About", route: "/about" },
-  { name: "Ship", route: "/ship" },
-  { name: "Testimonial", route: "/testimonial" },
-  { name: "Contact Us", route: "/contact" },
+export const navLinks = [
+  { name: "home", route: "/" },
+  { name: "about", route: "/about" },
+  { name: "services", route: "/services" },
+  { name: "price", route: "/price" },
+  {name:"blog", route:"/blog"},
+  { name: "contact", route: "/contact" },
 ];

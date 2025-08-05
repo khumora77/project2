@@ -1,0 +1,41 @@
+{
+  "welcome": "Xush kelibsiz",
+  "home": "Bosh sahifa",
+  "about": "Biz haqimizda",
+  "services": "Xizmatlar",
+  "price": "Narxlar",
+  "blog": "Blog",
+  "contact": "Aloqa",
+  "headings": {
+    "title": "Bizning",
+    "subtitle": "Eng Yaxshi Logistika",
+    "tagline": "Kompaniyamiz"
+  },
+  "description": "Keng tarqalgan fikrga qaramasdan, Lorem Ipsum oddiy tasodifiy matn emas. Unda 45 yil miloddan avvalgi klassik lotin adabiyotidan ildizlar mavjud bo'lib, u 2000 yildan ortiq tarixga ega.",
+  "social": {
+    "facebook": "Facebook",
+    "twitter": "Twitter",
+    "linkedin": "LinkedIn",
+    "instagram": "Instagram"
+  },
+  "trusted_provider": "Ishonchli va Tezkor Logistika Xizmati Provayderi",
+  "description1": "Dolores lorem lorem ipsum sit et ipsum. Sadip sea amet diam dolore sed et. Sit rebum labore sit sit ut vero no sit. Et elitr stet dolor sed sit et sed ipsum et kasd ut. Erat duo eos et erat sed diam duo",
+  "play_video": "Videoni Ko'rish",
+  "getQuote": "Narx taklif olish",
+  "safe_faster": "Xavfsiz & Tezkor",
+  "logistics_services": "Logistika Xizmatlari",
+  "tracking_id": "Kuzatish ID raqami",
+  "track_trace": "Kuzatish",
+  "get_quote": "Narx taklif olish",
+  "learn_more": "Batafsil ma'lumot",
+  "years_experience": "Yillik Tajriba",
+  "why_choose_us": "NEGA BIZNI TANLASH",
+  "services_title": "Tezkor, Xavfsiz va Ishonchli Logistika Xizmatlari",
+  "services_description": "Dolores lorem lorem ipsum sit et ipsum. Sadip sea amet diam dolore sed et. Sit rebum labore sit sit ut vero no sit. Et elitr stet dolor sed sit et sed ipsum et kasd ut. Erat duo eos et erat sed diam duo",
+  "best_industry": "Sanoatda Eng Yaxshi",
+  "best_industry_desc": "Sanoatda yetakchi 99,9% ishonchlilikka ega logistika yechimlari",
+  "emergency_services": "Favqulodda Xizmatlar",
+  "emergency_services_desc": "Shoshilinch yuklar uchun 24/7 ishlaydigan tezkor javob guruhlari",
+  "customer_support": "24/7 Mijozlarga Yordam",
+  "customer_support_desc": "Sizga yordam berishga tayyor bo'lgan maxsus qo'llab-quvvatlash jamoasi"
+}

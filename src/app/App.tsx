@@ -1,32 +1,28 @@
 import React from "react";
-import { Route, Routes, useLocation } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import Home from "../pages/home";
 import Navbar from "../shared/navbar";
-import Back from "../assets/image.png";
+import About from "../pages/about";
+import ContactBar from "../shared/header";
+import ServicePage from "../pages/service";
+import Price from "../pages/price";
+import Blog from "../pages/blog";
+import Contact from "../pages/contact";
 
 const App = () => {
-  const location = useLocation();
 
-  const showBackground = location.pathname === "/";
 
   return (
-    <div
-      className=""
-      style={
-        showBackground
-          ? {
-              backgroundImage: `url(${Back})`,
-              backgroundSize: "cover",
-              backgroundPosition: "center",
-              minHeight: "100vh",
-              height: "700px",
-            }
-          : {}
-      }
-    >
+    <div>
+      <ContactBar />
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/services" element={<ServicePage />} />
+        <Route path="/price" element={<Price />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/contact" element={<Contact/>}/>
       </Routes>
     </div>
   );
