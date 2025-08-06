@@ -1,6 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import Image from "../assets/about1.png";
+import Image from "../..//assets/about1.png";
 import { FaPlay } from "react-icons/fa";
 import { motion } from "framer-motion";
 

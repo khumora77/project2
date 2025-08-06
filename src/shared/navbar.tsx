@@ -7,6 +7,8 @@ import i18n from "i18next";
 import Menu from "../assets/menu.png";
 import { navLinks } from "../constants";
 import { Button } from "../components/ui/button";
+import ModeToggle from "./mode-toggle";
+import { SignedIn, SignedOut, SignInButton, SignOutButton, UserButton } from "@clerk/clerk-react";
 
 interface NavLink {
   route: string;
@@ -50,7 +52,7 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <header className="text-white shadow-lg sticky top-0 z-50 bg-white">
+    <header className="shadow-lg sticky top-0 z-50 ">
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
         <Link
           to="/"
@@ -60,7 +62,7 @@ const Navbar: React.FC = () => {
             <FaTruck className="text-3xl text-[#ff4800]" />
           </div>
           <h1 className="text-2xl font-extrabold bg-gradient-to-r from-[#ff4800] to-[#ff8c00] bg-clip-text text-transparent">
-            {currentLanguage === "uz" ? "TEZKOR" : "FASTER"}
+            FASTER
           </h1>
         </Link>
 
@@ -69,7 +71,7 @@ const Navbar: React.FC = () => {
             <Link
               key={item.route}
               to={item.route}
-              className={`px-3 py-2 rounded-md transition text-black ${
+              className={`px-3 py-2 rounded-md transition ${
                 location.pathname === item.route
                   ? "text-black font-bold bg-[#ff4800]"
                   : "hover:text-white hover:bg-gray-800"
@@ -88,8 +90,8 @@ const Navbar: React.FC = () => {
               aria-label={t("change_language")}
               aria-expanded={isLangOpen}
             >
-              <MdLanguage className="text-xl text-gray-800" />
-              <span className="text-sm hidden sm:inline text-gray-800">
+              <MdLanguage className="text-xl text-black dark:text-white" />
+              <span className="text-sm hidden sm:inline text-black dark:text-white">
                 {currentLanguage.toUpperCase()}
               </span>
             </button>
@@ -112,12 +114,31 @@ const Navbar: React.FC = () => {
               </div>
             )}
           </div>
-
+          <ModeToggle />
           <Link to={"/contact"}>
             <Button className="bg-[#ff4800] hover:bg-[#ff6a00] text-white hidden md:block">
               {t("getQuote")}
             </Button>
           </Link>
+          <div className="flex items-center gap-4">
+            <SignedIn>
+              <UserButton />
+              <SignOutButton>
+                <button className=" text-white px-4 py-2 rounded hover:underline hover:text-red-700">
+                  Logout
+                </button>
+              </SignOutButton>
+            </SignedIn>
+
+            {/* Foydalanuvchi tizimga kirmagan bo‘lsa */}
+            <SignedOut>
+              <SignInButton>
+                <button className="bg-orange-500 text-white px-4 py-2 rounded hover:bg-orange-600">
+                  Login
+                </button>
+              </SignInButton>
+            </SignedOut>
+          </div>
 
           <button
             onClick={() => setIsOpen(!isOpen)}

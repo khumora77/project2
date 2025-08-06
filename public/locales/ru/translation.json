@@ -1,7 +1,7 @@
 {
   "home": "Главная",
   "about": "О нас",
-  "services": "Услуги",
+  "service": "Услуги",
   "price": "Цены",
   "blog": "Блог",
   "contact": "Контакты",
@@ -45,5 +45,174 @@
   "emergency_services": "Экстренные Услуги",
   "emergency_services_desc": "Группы быстрого реагирования доступны 24/7 для срочных грузов",
   "customer_support": "Круглосуточная Поддержка",
-  "customer_support_desc": "Специальная команда поддержки всегда готова вам помочь"
+  "customer_support_desc": "Специальная команда поддержки всегда готова вам помочь",
+  "services": {
+    "our_services": "Наши Услуги",
+    "best_logistic": "Лучшие Логистические Услуги",
+    "air_freight": "Авиаперевозки",
+    "air_freight_desc": "Быстрые и надежные авиаперевозки по всему миру с онлайн-отслеживанием.",
+    "ocean_freight": "Морские Перевозки",
+    "ocean_freight_desc": "Экономичные морские перевозки для всех типов грузов.",
+    "land_transport": "Наземный Транспорт",
+    "land_transport_desc": "Эффективные автомобильные перевозки с современным автопарком.",
+    "cargo_storage": "Хранение Грузов",
+    "cargo_storage_desc": "Безопасные складские решения с контролем климата.",
+    "read_more": "Подробнее"
+  },
+
+  "quote": {
+    "get_quote": "ПОЛУЧИТЬ ПРЕДЛОЖЕНИЕ",
+    "request_quote": "Запросить Бесплатное Предложение",
+    "description": "Наша профессиональная команда предлагает лучшие логистические решения. Свяжитесь с нами для грузоперевозок, хранения и других логистических услуг."
+  },
+  "stats": {
+    "experts": "Квалифицированные Специалисты",
+    "clients": "Довольные Клиенты",
+    "projects": "Завершенные Проекты"
+  },
+  "form": {
+    "name": "Ваше Имя",
+    "name_placeholder": "Введите ваше имя",
+    "email": "Ваш Email",
+    "email_placeholder": "Введите ваш email",
+    "select_service": "Выберите Услугу",
+    "service_placeholder": "Выберите услугу...",
+    "submit": "Получить Предложение",
+    "submitting": "Отправка...",
+    "success_message": "Спасибо! Ваш запрос успешно отправлен."
+  },
+  "services1": {
+    "web_dev": "Веб-Разработка",
+    "mobile_dev": "Мобильная Разработка",
+    "ui_ux": "UI/UX Дизайн",
+    "digital_marketing": "Цифровой Маркетинг",
+    "seo": "SEO Услуги",
+    "consulting": "Консалтинг"
+  },
+
+  "footer": {
+    "get_in_touch": "Связаться",
+    "address": "123 Улица, Ташкент, Узбекистан",
+    "phone": "+998 90 123 45 67",
+    "email": "info@example.ru",
+    "quick_links": "Быстрые Ссылки",
+    "newsletter": "Новостная Рассылка",
+    "newsletter_description": "Подпишитесь на нашу рассылку для получения последних новостей и предложений.",
+    "email_placeholder": "Ваш Email Адрес",
+    "sign_up": "Подписаться",
+    "copyright": "© Ваш Сайт. Все права защищены. Разработано HTML Codex",
+    "privacy": "Конфиденциальность",
+    "terms": "Условия",
+    "faqs": "Вопросы",
+    "help": "Помощь"
+  },
+
+  "team": {
+    "section_title": "КОМАНДА ДОСТАВКИ",
+    "heading": "Познакомьтесь с нашей командой доставки",
+    "member1": {
+      "name": "Алексей Иванов",
+      "position": "Главный Водитель"
+    },
+    "member2": {
+      "name": "Елена Петрова",
+      "position": "Координатор Логистики"
+    },
+    "member3": {
+      "name": "Дмитрий Смирнов",
+      "position": "Менеджер Склада"
+    },
+    "member4": {
+      "name": "Ольга Кузнецова",
+      "position": "Поддержка Клиентов"
+    }
+  },
+  "testimonials": {
+    "section_title": "ОТЗЫВЫ",
+    "heading": "Что Говорят Наши Клиенты",
+    "go_to_testimonial": "Перейти к отзыву {{number}}",
+    "client1": {
+      "name": "Имя клиента",
+      "profession": "Генеральный директор, Технологическая компания",
+      "text": "Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr clita lorem. Dolor ipsum sanct clita."
+    },
+    "client2": {
+      "name": "Имя клиента",
+      "profession": "Директор по маркетингу",
+      "text": "Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr clita lorem. Dolor ipsum sanct clita."
+    },
+    "client3": {
+      "name": "Имя клиента",
+      "profession": "Операционный менеджер",
+      "text": "Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr clita lorem. Dolor ipsum sanct clita."
+    },
+    "client4": {
+      "name": "Имя клиента",
+      "profession": "Владелец интернет-магазина",
+      "text": "Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr clita lorem. Dolor ipsum sanct clita."
+    }
+  },
+  "pricing": {
+    "section_title": "ТАРИФЫ",
+    "heading": "Доступные Пакеты Услуг",
+    "month": "Месяц",
+    "order_now": "Заказать Сейчас",
+    "basic": {
+      "name": "Базовый"
+    },
+    "premium": {
+      "name": "Премиум"
+    },
+    "business": {
+      "name": "Бизнес"
+    },
+    "features": {
+      "html_css": "HTML5 и CSS3",
+      "bootstrap": "Bootstrap 4",
+      "responsive": "Адаптивный Дизайн",
+      "browsers": "Совместимость со всеми браузерами"
+    }
+  },
+
+  "contact1": {
+    "address": "123 Улица, Ташкент, Узбекистан",
+    "map_title": "Карта Ташкента",
+    "contact_us": "Свяжитесь с нами",
+    "title": "Свяжитесь по любым вопросам",
+    "name_placeholder": "Ваше Имя",
+    "email_placeholder": "Ваш Email",
+    "subject_placeholder": "Тема",
+    "message_placeholder": "Сообщение",
+    "send_button": "Отправить Сообщение",
+    "sending": "Отправка...",
+    "success_message": "Спасибо! Ваше сообщение успешно отправлено."
+  },
+  "blog1": {
+    "section_title": "НАШ БЛОГ",
+    "heading": "Последнее из Блога",
+    "read_more": "ЧИТАТЬ ДАЛЕЕ"
+  },
+  "blog2": {
+    "author1": "Джон Доу",
+    "category1": "Веб Дизайн",
+    "date1": "01 ЯНВ",
+    "title1": "Kasd временно море просто боль",
+    "description1": "Sadipscing лаборатория amet rebum est et justo gubergren. Et eirmod ipsum sit diam ut magna lorem. Nonumy vero labore lorem sanctus rebum et lorem magna kasd, stet amet magna accusam consetetur eirmod.",
+    "title2": "Это боль lorem и ea",
+    "description2": "Diam dolor est labore duo invidunt ipsum clita et, sed et lorem voluptua tempor invidunt at est sanctus sanctus. Clita dolores sit kasd diam takimata justo diam lorem sed. Magna amet sed rebum eos. Clita no magna no dolor erat diam tempor rebum consetetur, sanctus labore sed nonumy diam lorem amet eirmod. No at tempor sea diam kasd, takimata ea nonumy elitr sadipscing gubergren erat. Gubergren at lorem invidunt sadipscing rebum sit amet ut ut, voluptua diam dolores at sadipscing stet. Clita dolor amet dolor ipsum vero ea ea eos. Invidunt sed diam dolores takimata dolor dolore dolore sit. Sit ipsum erat amet lorem et, magna sea at sed et eos. Accusam eirmod kasd lorem clita sanctus ut consetetur et. Et duo tempor sea kasd clita ipsum et. Takimata kasd diam justo est eos erat aliquyam et ut.",
+    "imageAlt": "Изображение блога",
+    "additionalContent1": "Diam dolor est labore duo invidunt ipsum clita et, sed et lorem voluptua tempor invidunt at est sanctus sanctus. Clita dolores sit kasd diam takimata justo diam lorem sed. Magna amet sed rebum eos. Clita no magna no dolor erat diam tempor rebum consetetur, sanctus labore sed nonumy diam lorem amet eirmod. No at tempor sea diam kasd, takimata ea nonumy elitr sadipscing gubergren erat. Gubergren at lorem invidunt sadipscing rebum sit amet ut ut, voluptua diam dolores at sadipscing stet. Clita dolor amet dolor ipsum vero ea ea eos. Invidunt sed diam dolores takimata dolor dolore dolore sit. Sit ipsum erat amet lorem et, magna sea at sed et eos. Accusam eirmod kasd lorem clita sanctus ut consetetur et. Et duo tempor sea kasd clita ipsum et. Takimata kasd diam justo est eos erat aliquyam et ut."
+  },
+  "commentForm": {
+    "title": "Оставить комментарий",
+    "nameLabel": "Имя",
+    "namePlaceholder": "Ваше имя",
+    "emailLabel": "Электронная почта",
+    "emailPlaceholder": "Ваш email",
+    "websiteLabel": "Вебсайт",
+    "websitePlaceholder": "Ваш сайт (необязательно)",
+    "messageLabel": "Сообщение",
+    "messagePlaceholder": "Ваш комментарий здесь...",
+    "submitButton": "Отправить комментарий"
+  }
 }

@@ -1,0 +1,37 @@
+{
+  "quotes": [
+    {
+      "id": "7db0",
+      "name": "sad",
+      "email": "afd@gmail.com",
+      "service": "Web Development"
+    },
+    {
+      "id": "2059",
+      "name": "asdas",
+      "email": "user@example.com",
+      "service": "",
+      "subject": "job",
+      "message": "sdaf"
+    }
+  ],
+  "contacts": [
+    {
+      "id": "a5a9",
+      "name": "gigi",
+      "email": "user@example.com",
+      "service": "",
+      "subject": "sad",
+      "message": "adf"
+    }
+  ],
+  "comments": [
+    {
+      "id": "978d",
+      "name": "dsaf",
+      "email": "afg@gmail.com",
+      "website": "https://themewagon.github.io/faster/single.html#",
+      "message": "fag"
+    }
+  ]
+}

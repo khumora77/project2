@@ -2,7 +2,7 @@
   "welcome": "Xush kelibsiz",
   "home": "Bosh sahifa",
   "about": "Biz haqimizda",
-  "services": "Xizmatlar",
+  "service": "Xizmatlar",
   "price": "Narxlar",
   "blog": "Blog",
   "contact": "Aloqa",
@@ -37,5 +37,176 @@
   "emergency_services": "Favqulodda Xizmatlar",
   "emergency_services_desc": "Shoshilinch yuklar uchun 24/7 ishlaydigan tezkor javob guruhlari",
   "customer_support": "24/7 Mijozlarga Yordam",
-  "customer_support_desc": "Sizga yordam berishga tayyor bo'lgan maxsus qo'llab-quvvatlash jamoasi"
+  "customer_support_desc": "Sizga yordam berishga tayyor bo'lgan maxsus qo'llab-quvvatlash jamoasi",
+
+  "services": {
+    "our_services": "Bizning Xizmatlar",
+    "best_logistic": "Eng Yaxshi Logistika Xizmatlari",
+    "air_freight": "Aviayuk Tashish",
+    "air_freight_desc": "Tez va ishonchli havo yuk tashish xizmati butun dunyo bo'ylab.",
+    "ocean_freight": "Dengiz Yuk Tashish",
+    "ocean_freight_desc": "Har qanday turdagi yuklar uchun arzon dengiz yuk tashish yechimlari.",
+    "land_transport": "Quruqlikdagi Transport",
+    "land_transport_desc": "Zamonaviy avtopark va tajribali haydovchilar bilan samarali yo'l transporti.",
+    "cargo_storage": "Yuk Saqlash",
+    "cargo_storage_desc": "Iqlimni nazorat qilish imkoniyatiga ega xavfsiz omborxona yechimlari.",
+    "read_more": "Batafsil"
+  },
+
+  "quote": {
+    "get_quote": "TAKLIF OLING",
+    "request_quote": "Bepul Taklif So'rang",
+    "description": "Bizning professional jamoamiz sizga eng yaxshi logistika yechimlarini taklif qiladi. Yuk tashish, saqlash va boshqa barcha logistika xizmatlari uchun biz bilan bog'laning."
+  },
+  "stats": {
+    "experts": "Malakali Mutaxassislar",
+    "clients": "Mamnun Mijozlar",
+    "projects": "Yakunlangan Loyihalar"
+  },
+  "form": {
+    "name": "Ismingiz",
+    "name_placeholder": "Ismingizni kiriting",
+    "email": "Elektron Pochtangiz",
+    "email_placeholder": "Elektron pochtangizni kiriting",
+    "select_service": "Xizmat Turini Tanlang",
+    "service_placeholder": "Xizmat turini tanlang...",
+    "submit": "Taklif Olmoq",
+    "submitting": "Yuborilmoqda...",
+    "success_message": "Rahmat! Sizning so'rovingiz muvaffaqiyatli yuborildi."
+  },
+  "services1": {
+    "web_dev": "Veb Dasturlash",
+    "mobile_dev": "Mobil Dasturlash",
+    "ui_ux": "UI/UX Dizayn",
+    "digital_marketing": "Raqamli Marketing",
+    "seo": "SEO Xizmatlari",
+    "consulting": "Konsalting"
+  },
+
+  "footer": {
+    "get_in_touch": "Bog'lanish",
+    "address": "123 Ko'cha, Toshkent, O'zbekiston",
+    "phone": "+998 90 123 45 67",
+    "email": "info@example.uz",
+    "quick_links": "Tezkor Havolalar",
+    "newsletter": "Yangiliklar",
+    "newsletter_description": "So'nggi yangiliklar va takliflar uchun obuna bo'ling.",
+    "email_placeholder": "Elektron Pochtangiz",
+    "sign_up": "Obuna Bo'lish",
+    "copyright": "© Saytingiz. Barcha huquqlar himoyalangan. HTML Codex tomonidan ishlab chiqilgan",
+    "privacy": "Maxfiylik",
+    "terms": "Shartlar",
+    "faqs": "Savollar",
+    "help": "Yordam"
+  },
+
+  "team": {
+    "section_title": "YETKAZIB BERISH JAMOASI",
+    "heading": "Bizning Yetkazib Berish Jamoamiz Bilan Tanishing",
+    "member1": {
+      "name": "John Smith",
+      "position": "Bosh Haydovchi"
+    },
+    "member2": {
+      "name": "Michael Brown",
+      "position": "Logistika Koordinatori"
+    },
+    "member3": {
+      "name": "Sarah Johnson",
+      "position": "Ombor Menejeri"
+    },
+    "member4": {
+      "name": "Emily Davis",
+      "position": "Mijozlar Qo'llab-Quvvatlash"
+    }
+  },
+  "testimonials": {
+    "section_title": "MIJOZLAR FIKRI",
+    "heading": "Mijozlarimiz Nima Deydi",
+    "go_to_testimonial": "{{number}} - fikrga o'tish",
+    "client1": {
+      "name": "Mijoz ismi",
+      "profession": "Texnologiya Kompaniyasi Direktori",
+      "text": "Yetkazib berish xizmati ajoyib edi. Mahsulotlarimiz kutilganidan ham tezroq va mukammal holatda yetib keldi."
+    },
+    "client2": {
+      "name": "Mijoz ismi",
+      "profession": "Marketing Direktori",
+      "text": "Ishonchli va professional xizmat. Biz yillar davomida barcha logistika ehtiyojlarimiz uchun ularni ishlatamiz."
+    },
+    "client3": {
+      "name": "Mijoz ismi",
+      "profession": "Operatsion Menejer",
+      "text": "Ular jamoasi bizning nozik yukimizni juda ehtiyotkorlik bilan qayta ishladi. Maxsus yuklar uchun tavsiya etiladi."
+    },
+    "client4": {
+      "name": "Mijoz ismi",
+      "profession": "Elektron Tijorat Egasi",
+      "text": "Tez javob vaqtlari va ajoyib mijozlarga xizmat ko'rsatish. Ular bizning asosiy logistika hamkorimizga aylandi."
+    }
+  },
+  "pricing": {
+    "section_title": "NARXLAR",
+    "heading": "Arzon Narx Paketlari",
+    "month": "Oy",
+    "order_now": "Buyurtma Berish",
+    "basic": {
+      "name": "Asosiy"
+    },
+    "premium": {
+      "name": "Premium"
+    },
+    "business": {
+      "name": "Biznes"
+    },
+    "features": {
+      "html_css": "HTML5 va CSS3",
+      "bootstrap": "Bootstrap 4",
+      "responsive": "Moslashuvchan Dizayn",
+      "browsers": "Barcha Brauzerlar bilan Mos"
+    }
+  },
+  "contact1": {
+    "address": "123 Ko'cha, Toshkent, O'zbekiston",
+    "map_title": "Toshkent Xaritasi",
+    "contact_us": "Biz bilan Bog'lanish",
+    "title": "Har qanday Savol uchun Bog'laning",
+    "name_placeholder": "Ismingiz",
+    "email_placeholder": "Elektron Pochtangiz",
+    "subject_placeholder": "Mavzu",
+    "message_placeholder": "Xabar",
+    "send_button": "Xabarni Yuborish",
+    "sending": "Yuborilmoqda...",
+    "success_message": "Rahmat! Xabaringiz muvaffaqiyatli yuborildi."
+  },
+  "blog1": {
+    "section_title": "BIZNING BLOG",
+    "heading": "Blogdan So'nggi Postlar",
+    "read_more": "KO'PROQ O'QISH"
+  },
+
+  "blog2": {
+    "author1": "John Doe",
+    "category1": "Veb Dizayn",
+    "date1": "01 YAN",
+    "title1": "Kasd vaqt diam dengiz faqat og'riq",
+    "description1": "Sadipscing laboratoriya amet rebum est et justo gubergren. Et eirmod ipsum sit diam ut magna lorem. Nonumy vero labore lorem sanctus rebum et lorem magna kasd, stet amet magna accusam consetetur eirmod.",
+    "title2": "Bu lorem va ea og'riq",
+    "description2": "Diam dolor est labore duo invidunt ipsum clita et, sed et lorem voluptua tempor invidunt at est sanctus sanctus. Clita dolores sit kasd diam takimata justo diam lorem sed. Magna amet sed rebum eos. Clita no magna no dolor erat diam tempor rebum consetetur, sanctus labore sed nonumy diam lorem amet eirmod. No at tempor sea diam kasd, takimata ea nonumy elitr sadipscing gubergren erat. Gubergren at lorem invidunt sadipscing rebum sit amet ut ut, voluptua diam dolores at sadipscing stet. Clita dolor amet dolor ipsum vero ea ea eos. Invidunt sed diam dolores takimata dolor dolore dolore sit. Sit ipsum erat amet lorem et, magna sea at sed et eos. Accusam eirmod kasd lorem clita sanctus ut consetetur et. Et duo tempor sea kasd clita ipsum et. Takimata kasd diam justo est eos erat aliquyam et ut.",
+    "imageAlt": "Blog post rasmi",
+    "additionalContent1": "Diam dolor est labore duo invidunt ipsum clita et, sed et lorem voluptua tempor invidunt at est sanctus sanctus. Clita dolores sit kasd diam takimata justo diam lorem sed. Magna amet sed rebum eos. Clita no magna no dolor erat diam tempor rebum consetetur, sanctus labore sed nonumy diam lorem amet eirmod. No at tempor sea diam kasd, takimata ea nonumy elitr sadipscing gubergren erat. Gubergren at lorem invidunt sadipscing rebum sit amet ut ut, voluptua diam dolores at sadipscing stet. Clita dolor amet dolor ipsum vero ea ea eos. Invidunt sed diam dolores takimata dolor dolore dolore sit. Sit ipsum erat amet lorem et, magna sea at sed et eos. Accusam eirmod kasd lorem clita sanctus ut consetetur et. Et duo tempor sea kasd clita ipsum et. Takimata kasd diam justo est eos erat aliquyam et ut."
+  },
+
+  "commentForm": {
+    "title": "Fikr qoldiring",
+    "nameLabel": "Ism",
+    "namePlaceholder": "Ismingiz",
+    "emailLabel": "Elektron pochta",
+    "emailPlaceholder": "Elektron pochtangiz",
+    "websiteLabel": "Vebsayt",
+    "websitePlaceholder": "Vebsaytingiz (ixtiyoriy)",
+    "messageLabel": "Xabar",
+    "messagePlaceholder": "Fikringizni bu yerga yozing...",
+    "submitButton": "Fikrni joylash"
+  }
 }

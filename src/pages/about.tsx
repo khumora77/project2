@@ -2,8 +2,9 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import { FaHome } from "react-icons/fa";
-import About1 from "../about/about";
-import WhyChooseUs from "../about/about2";
+import About1 from "../components/about/about";
+import WhyChooseUs from "../components/about/about2";
+import TeamMemberCard from "../components/about/about3";
 
 const AboutPage = () => {
   const { t } = useTranslation();
@@ -11,7 +12,7 @@ const AboutPage = () => {
   return (
     <div className="font-sans">
       {/* Breadcrumbs */}
-      <div className="bg-gray-100 py-4">
+      <div className="bg-gray-100 py-4 dark:bg-gray-800">
         <div className="container mx-auto px-4 flex items-center text-sm">
           <Link
             to="/"
@@ -50,7 +51,8 @@ const AboutPage = () => {
         </div>
       </div>
       <About1 />
-      <WhyChooseUs/>
+      <WhyChooseUs />
+      <TeamMemberCard />
     </div>
   );
 };

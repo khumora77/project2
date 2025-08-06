@@ -2,7 +2,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import { FaCheck } from "react-icons/fa";
 import { motion } from "framer-motion";
-import Image from "../assets/about2.png";
+import Image from "../../assets/about2.png";
 
 const WhyChooseUs = () => {
   const { t } = useTranslation();
@@ -23,7 +23,7 @@ const WhyChooseUs = () => {
   ];
 
   return (
-    <section className="bg-gray-50 dark:bg-gray-900 py-16 lg:py-24">
+    <section className="bg-[#f2f2f4] dark:bg-gray-900 py-16 lg:py-24">
       <div className="container mx-auto px-4">
         <div className="flex flex-col lg:flex-row items-center gap-12">
           {/* LEFT: IMAGE */}
