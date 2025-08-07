@@ -1,4 +1,3 @@
-import React from "react";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import { FaHome } from "react-icons/fa";
@@ -12,6 +11,7 @@ const ServicePage = () => {
   return (
     <>
       <div className="font-sans">
+
         <div className="bg-gray-100 py-4 dark:bg-gray-800">
           <div className="container mx-auto px-4 flex items-center text-sm">
             <Link
@@ -28,7 +28,6 @@ const ServicePage = () => {
           </div>
         </div>
 
-        {/* Hero Section */}
         <div
           className="relative h-64 md:h-96 w-full bg-cover bg-center flex items-center"
           style={{

@@ -8,7 +8,7 @@ import Menu from "../assets/menu.png";
 import { navLinks } from "../constants";
 import { Button } from "../components/ui/button";
 import ModeToggle from "./mode-toggle";
-import { SignedIn, SignedOut, SignInButton, SignOutButton, UserButton } from "@clerk/clerk-react";
+import { SignedIn, SignedOut, SignInButton, SignUpButton, UserButton } from "@clerk/clerk-react";
 
 interface NavLink {
   route: string;
@@ -86,12 +86,12 @@ const Navbar: React.FC = () => {
           <div className="relative">
             <button
               onClick={() => setIsLangOpen(!isLangOpen)}
-              className="p-2 rounded-full hover:bg-gray-800 transition flex items-center gap-1"
+              className="p-2 rounded-full hover:bg-gray-800 hover:text-white   transition flex items-center gap-1"
               aria-label={t("change_language")}
               aria-expanded={isLangOpen}
             >
-              <MdLanguage className="text-xl text-black dark:text-white" />
-              <span className="text-sm hidden sm:inline text-black dark:text-white">
+              <MdLanguage className="text-xl  dark:text-white " />
+              <span className="text-sm hidden sm:inline  dark:text-white">
                 {currentLanguage.toUpperCase()}
               </span>
             </button>
@@ -123,20 +123,19 @@ const Navbar: React.FC = () => {
           <div className="flex items-center gap-4">
             <SignedIn>
               <UserButton />
-              <SignOutButton>
-                <button className=" text-white px-4 py-2 rounded hover:underline hover:text-red-700">
-                  Logout
-                </button>
-              </SignOutButton>
             </SignedIn>
 
-            {/* Foydalanuvchi tizimga kirmagan bo‘lsa */}
             <SignedOut>
-              <SignInButton>
-                <button className="bg-orange-500 text-white px-4 py-2 rounded hover:bg-orange-600">
-                  Login
-                </button>
+              <SignInButton mode="modal">
+                <Button variant={"ghost"} size={"lg"} className="rounded-full">
+                  {t("logIn")}
+                </Button>
               </SignInButton>
+              <SignUpButton mode="modal">
+                <Button variant={"ghost"} size={"lg"} className="rounded-full">
+                  {t("signUp")}
+                </Button>
+              </SignUpButton>
             </SignedOut>
           </div>
 

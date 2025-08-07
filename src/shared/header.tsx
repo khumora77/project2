@@ -37,7 +37,7 @@ const ContactBar = () => {
               key={index}
               href="#"
               aria-label={link.label}
-              className="text-gray-600 dark:text-gray-400 hover:text-blue-500 dark:hover:text-blue-400 transition-colors duration-300 text-lg"
+              className="text-gray-600 dark:text-gray-400 hover:text-[#ff4800] dark:hover:text-[#ff4700] transition-colors duration-300 text-lg"
             >
               {link.icon}
             </a>

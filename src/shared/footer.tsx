@@ -4,6 +4,9 @@ import { Button } from "../components/ui/button";
 import { Link } from "react-router-dom";
 import { navLinks } from "../constants";
 import { useTranslation } from "react-i18next";
+import { SlArrowRight } from "react-icons/sl";
+import { FaFacebookF } from "react-icons/fa6";
+import { FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 
 export function Footer() {
   const { t } = useTranslation();
@@ -14,7 +17,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Get in Touch */}
           <div className="space-y-4">
-            <h3 className="text-xl font-semibold text-white">
+            <h3 className="text-2xl font-semibold text-[#ff4800]">
               {t("footer.get_in_touch")}
             </h3>
             <address className="not-italic space-y-2">
@@ -73,29 +76,58 @@ export function Footer() {
                 {t("footer.email")}
               </p>
             </address>
+            <div className="flex gap-4 items-center">
+              {[
+                {
+                  icon: <FaTwitter className="text-lg" />,
+                  color: "hover:text-[#ff4800]",
+                },
+                {
+                  icon: <FaFacebookF className="text-lg" />,
+                  color: "hover:text-[#ff4800]",
+                },
+                {
+                  icon: <FaLinkedinIn className="text-lg" />,
+                  color: "hover:text-[#ff4800]",
+                },
+                {
+                  icon: <FaInstagram className="text-lg" />,
+                  color: "hover:text-[#ff4800]",
+                },
+              ].map((item, index) => (
+                <span
+                  key={index}
+                  className={`p-2 rounded-full text-black border border-gray-300 hover:border-transparent bg-white bg-opacity-10 hover:bg-opacity-20 transition-all cursor-pointer ${item.color}`}
+                >
+                  {item.icon}
+                </span>
+              ))}
+            </div>
           </div>
 
-          {/* Quick Links */}
           <div className="space-y-4">
-            <h3 className="text-xl font-semibold text-white">
+            <h3 className="text-2xl font-semibold text-[#ff4800]">
               {t("footer.quick_links")}
             </h3>
             <nav className="space-y-2">
               {navLinks.map((item) => (
-                <Link
-                  key={item.name}
-                  to={item.href}
-                  className="block hover:text-[#ff4800] transition-colors"
-                >
-                  {t(item.name)}
-                </Link>
+                <div className="flex items-center text-[16px] font-semibold">
+                  <SlArrowRight />
+                  <Link
+                    key={item.name}
+                    to={item.route}
+                    className="block hover:text-[#ff4800] hover:underline transition-colors"
+                  >
+                    {t(item.name)}
+                  </Link>
+                </div>
               ))}
             </nav>
           </div>
 
           {/* Newsletter */}
           <div className="space-y-4 lg:col-span-2">
-            <h3 className="text-xl font-semibold text-white">
+            <h3 className="text-2xl font-semibold text-[#ff4800]">
               {t("footer.newsletter")}
             </h3>
             <p className="text-gray-400">

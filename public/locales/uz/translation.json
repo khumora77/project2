@@ -208,5 +208,10 @@
     "messageLabel": "Xabar",
     "messagePlaceholder": "Fikringizni bu yerga yozing...",
     "submitButton": "Fikrni joylash"
-  }
+  },
+
+  "manageAccount": "Profilni boshqarish",
+  "logout": "Chiqish",
+  "signUp": "Ro'yxatdan o'tish",
+  "logIn": "Kirish"
 }

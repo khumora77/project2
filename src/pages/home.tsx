@@ -18,9 +18,6 @@ const HeroSection = () => {
 
   return (
     <>
-
-
-
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
@@ -69,10 +66,10 @@ const HeroSection = () => {
             <input
               type="text"
               placeholder={t("tracking_id")}
-              className="flex-1 px-4 py-3 outline-none text-gray-800"
+              className="flex-1 px-4 outline-none text-gray-800"
             />
             <Button className="bg-[#ff4800] hover:bg-[#ff6a00] text-white px-6">
-              <FaSearch className="mr-2" />
+              <FaSearch className="mr-2 " />
               {t("track_trace")}
             </Button>
           </motion.div>
@@ -88,7 +85,7 @@ const HeroSection = () => {
             </Button>
             <Button
               variant="outline"
-              className="text-black border-white hover:bg-white/10 px-8 py-4 hover:text-white"
+              className="text-black dark:text-white border-white hover:bg-white/10 px-8 py-4 hover:text-white"
             >
               {t("learn_more")}
             </Button>

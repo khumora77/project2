@@ -85,8 +85,8 @@
 
   "footer": {
     "get_in_touch": "Get in Touch",
-    "address": "123 Street, New York, USA",
-    "phone": "+02 345 67890",
+    "address": "123 Street, Tashkent, Uzbekistan",
+    "phone": "+998 90 123 45 67",
     "email": "info@example.com",
     "quick_links": "Quick Links",
     "newsletter": "Newsletter",
@@ -170,7 +170,7 @@
   },
 
   "contact1": {
-    "address": "123 Street, New York, USA",
+    "address": "123 Street, Tashkent, Uzbekistan",
     "map_title": "New York Map",
     "contact_us": "Contact Us",
     "title": "Contact For Any Queries",
@@ -212,5 +212,10 @@
     "messageLabel": "Message",
     "messagePlaceholder": "Your comment here...",
     "submitButton": "Post Comment"
-  }
+  },
+
+  "manageAccount": "Manage account",
+  "logout": "Log Out",
+  "signUp": "Sign Up",
+  "logIn": "Log in"
 }

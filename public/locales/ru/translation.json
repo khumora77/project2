@@ -214,5 +214,10 @@
     "messageLabel": "Сообщение",
     "messagePlaceholder": "Ваш комментарий здесь...",
     "submitButton": "Отправить комментарий"
-  }
+  },
+
+  "manageAccount": "Управление профилем",
+  "logout": "Выйти",
+  "signUp": "Регистрация",
+  "logIn": "Войти"
 }
