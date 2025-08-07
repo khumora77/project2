@@ -52,7 +52,7 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <header className="shadow-lg sticky top-0 z-50 ">
+    <header className="shadow-lg sticky top-0 z-50 bg-white/75 dark:bg-black/75 ">
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
         <Link
           to="/"

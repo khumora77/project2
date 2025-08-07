@@ -1,4 +1,3 @@
-import React from "react";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import { FaHome } from "react-icons/fa";
@@ -22,7 +21,7 @@ const AboutPage = () => {
             {t("home")}
           </Link>
           <span className="mx-2 text-gray-400">/</span>
-          <span className="text-gray-600">{t("about")}</span>
+          <span className="text-gray-600 dark:text-gray-300">{t("about")}</span>
         </div>
       </div>
 

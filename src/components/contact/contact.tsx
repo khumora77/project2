@@ -64,12 +64,12 @@ export function ContactSection() {
         </div>
         <iframe
           title={t("contact1.map_title")}
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24156.04243878226!2d-74.01001011941417!3d40.71272813964514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a316dce1d47%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY!5e0!3m2!1sen!2sus!4v1689118406701!5m2!1sen!2sus"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11979.03090271621!2d69.11066212290473!3d41.35761944705467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2s!4v1754571400326!5m2!1sru!2s"
           className="w-full h-[450px] border-0 rounded-b"
-          allowFullScreen=""
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
+        
       </div>
 
       {/* Contact form */}
