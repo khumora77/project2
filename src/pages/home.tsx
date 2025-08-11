@@ -22,7 +22,7 @@ const HeroSection = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.8 }}
-      className="relative h-[600px] w-full bg-cover bg-center flex items-center"
+      className="relative h-[600px] w-full bg-cover bg-center flex items-center mt-11"
       style={{
         backgroundImage: "url('https://themewagon.github.io/faster/img/header.jpg')",
       }}

@@ -10,7 +10,7 @@ const Contact = () => {
   return (
     <>
       <div className="font-sans">
-        <div className="bg-gray-100 py-4 dark:bg-gray-800">
+        <div className="bg-gray-100 py-4 dark:bg-gray-800 mt-11">
           <div className="container mx-auto px-4 flex items-center text-sm">
             <Link
               to="/"
