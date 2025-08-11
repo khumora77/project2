@@ -116,7 +116,7 @@ export function Footer() {
                   <SlArrowRight />
                    <Link
                                   key={item.route}
-                                  onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+                                  onClick={() => window.scrollTo({ top:0, behavior: "smooth" })}
                                   to={`/${lng || "en"}${item.route}`} 
                                   className={`px-3 py-2 rounded-md transition font-medium ${
                                     location.pathname === `/${lng || "en"}${item.route}`
