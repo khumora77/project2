@@ -120,10 +120,9 @@ export function Footer() {
                                   to={`/${lng || "en"}${item.route}`} 
                                   className={`px-3 py-2 rounded-md transition font-medium ${
                                     location.pathname === `/${lng || "en"}${item.route}`
-                                      ? "text-white bg-[#ff4800]"
-                                      : "hover:text-white hover:bg-gray-800 dark:text-white text-gray-800"
+                                     
                                   }`}
-                                >
+                                > 
                                   {t(item.name)}
                                 </Link>
                 </div>
