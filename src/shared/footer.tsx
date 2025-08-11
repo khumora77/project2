@@ -1,7 +1,7 @@
 import React from "react";
 import { Input } from "../components/ui/input";
 import { Button } from "../components/ui/button";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { navLinks } from "../constants";
 import { useTranslation } from "react-i18next";
 import { SlArrowRight } from "react-icons/sl";
@@ -10,6 +10,7 @@ import { FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 
 export function Footer() {
   const { t } = useTranslation();
+  const { lng } = useParams(); 
 
   return (
     <footer className="bg-[#1f1f2e] text-gray-300 pt-12 pb-6 px-4 sm:px-6 lg:px-8">
@@ -113,13 +114,18 @@ export function Footer() {
               {navLinks.map((item) => (
                 <div className="flex items-center text-[16px] font-semibold">
                   <SlArrowRight />
-                  <Link
-                    key={item.name}
-                    to={item.route}
-                    className="block hover:text-[#ff4800] hover:underline transition-colors"
-                  >
-                    {t(item.name)}
-                  </Link>
+                   <Link
+                                  key={item.route}
+                                  onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+                                  to={`/${lng || "en"}${item.route}`} 
+                                  className={`px-3 py-2 rounded-md transition font-medium ${
+                                    location.pathname === `/${lng || "en"}${item.route}`
+                                      ? "text-white bg-[#ff4800]"
+                                      : "hover:text-white hover:bg-gray-800 dark:text-white text-gray-800"
+                                  }`}
+                                >
+                                  {t(item.name)}
+                                </Link>
                 </div>
               ))}
             </nav>
