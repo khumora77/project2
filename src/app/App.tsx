@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, Navigate } from "react-router-dom";
 import Home from "../pages/home";
 import Navbar from "../shared/navbar";
 import About from "../pages/about";
@@ -17,12 +17,19 @@ const App = () => {
       <ContactBar />
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/services" element={<ServicePage />} />
-        <Route path="/price" element={<Price />} />
-        <Route path="/blog" element={<Blog />} />
-        <Route path="/contact" element={<Contact />} />
+        {/* Default tilga yo‘naltirish */}
+        <Route path="/" element={<Navigate to="/en" />} />
+
+        {/* Til parametri bo'lgan barcha sahifalar */}
+        <Route path="/:lng" element={<Home />} />
+        <Route path="/:lng/about" element={<About />} />
+        <Route path="/:lng/services" element={<ServicePage />} />
+        <Route path="/:lng/price" element={<Price />} />
+        <Route path="/:lng/blog" element={<Blog />} />
+        <Route path="/:lng/contact" element={<Contact />} />
+
+        {/* Agar boshqa yo‘l bo‘lsa — defaultga qaytarish */}
+        <Route path="*" element={<Navigate to="/en" />} />
       </Routes>
       <Footer />
       <ScrollToTopButton />

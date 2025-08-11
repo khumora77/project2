@@ -6,3 +6,8 @@ export const navLinks = [
   {name:"blog", route:"/blog"},
   { name: "contact", route: "/contact" },
 ];
+export const lngs = [
+  { route: "en", label: "English" },
+  { route: "uz", label: "O'zbekcha" },
+  { route: "ru", label: "Русский" },
+];
