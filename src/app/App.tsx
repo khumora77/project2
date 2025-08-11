@@ -17,10 +17,6 @@ const App = () => {
       <ContactBar />
       <Navbar />
       <Routes>
-        {/* Default tilga yo‘naltirish */}
-        <Route path="/" element={<Navigate to="/en" />} />
-
-        {/* Til parametri bo'lgan barcha sahifalar */}
         <Route path="/:lng" element={<Home />} />
         <Route path="/:lng/about" element={<About />} />
         <Route path="/:lng/services" element={<ServicePage />} />
@@ -28,7 +24,6 @@ const App = () => {
         <Route path="/:lng/blog" element={<Blog />} />
         <Route path="/:lng/contact" element={<Contact />} />
 
-        {/* Agar boshqa yo‘l bo‘lsa — defaultga qaytarish */}
         <Route path="*" element={<Navigate to="/en" />} />
       </Routes>
       <Footer />

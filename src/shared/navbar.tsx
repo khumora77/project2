@@ -32,7 +32,8 @@ const Navbar = () => {
             {navLinks.map((item) => (
               <Link
                 key={item.route}
-                to={`/${lng || "en"}${item.route}`} // Tilni qo‘shdik
+                onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+                to={`/${lng || "en"}${item.route}`} 
                 className={`px-3 py-2 rounded-md transition font-medium ${
                   location.pathname === `/${lng || "en"}${item.route}`
                     ? "text-white bg-[#ff4800]"
