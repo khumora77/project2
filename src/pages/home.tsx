@@ -18,24 +18,29 @@ const HeroSection = () => {
 
   return (
     <>
+
+
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.8 }}
-      className="relative h-[600px] w-full bg-cover bg-center flex items-center"
+      className="relative min-h-[500px] md:min-h-[600px] lg:min-h-[700px] w-full bg-cover bg-center flex items-center"
       style={{
         backgroundImage: "url('https://themewagon.github.io/faster/img/header.jpg')",
       }}
     >
+      {/* Overlay */}
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 0.5 }}
         transition={{ duration: 1 }}
-        className="absolute inset-0 bg-black/50"
+        className="absolute inset-0 bg-black/60"
       />
 
+      {/* Content */}
       <div className="container mx-auto px-4 z-10">
         <div className="max-w-2xl text-white">
+          {/* Tagline */}
           <motion.div
             initial={{ x: -50, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
@@ -43,49 +48,52 @@ const HeroSection = () => {
             className="flex items-center gap-2 mb-4"
           >
             <FaTruck className="text-[#ff4800] text-2xl" />
-            <span className="font-semibold tracking-wider">
+            <span className="font-semibold tracking-wider text-sm sm:text-base">
               {t("safe_faster")}
             </span>
           </motion.div>
 
+          {/* Main Title */}
           <motion.h1
             initial={{ y: 50, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.3, duration: 0.8 }}
-            className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight"
+            className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight"
           >
             {t("logistics_services")}
           </motion.h1>
 
+          {/* Tracking Box */}
           <motion.div
             initial={{ y: 30, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.4, duration: 0.8 }}
-            className="bg-white p-1 rounded-md flex max-w-md mb-8"
+            className="bg-white/90 backdrop-blur-md p-2 rounded-md flex flex-col sm:flex-row max-w-md mb-6"
           >
             <input
               type="text"
               placeholder={t("tracking_id")}
-              className="flex-1 px-4 outline-none text-gray-800"
+              className="flex-1 px-4 py-2 outline-none text-gray-800 placeholder-gray-500 rounded-md sm:rounded-none sm:rounded-l-md"
             />
-            <Button className="bg-[#ff4800] hover:bg-[#ff6a00] text-white px-6">
-              <FaSearch className="mr-2 " />
+            <Button className="bg-[#ff4800] hover:bg-[#ff6a00] text-white flex items-center justify-center px-6 py-2 sm:rounded-r-md sm:rounded-l-none mt-2 sm:mt-0">
+              <FaSearch className="mr-2" />
               {t("track_trace")}
             </Button>
           </motion.div>
 
+          {/* Action Buttons */}
           <motion.div
             initial={{ y: 40, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.5, duration: 0.8 }}
-            className="flex gap-4"
+            className="flex flex-col sm:flex-row gap-4"
           >
-            <Button className="bg-[#ff4800] hover:bg-[#ff6a00] text-white px-8 py-4">
+            <Button className="bg-[#ff4800] hover:bg-[#ff6a00] text-white px-8 py-4 w-full sm:w-auto">
               {t("get_quote")}
             </Button>
             <Button
               variant="outline"
-              className="text-black dark:text-white border-white hover:bg-white/10 px-8 py-4 hover:text-white"
+              className="text-white border-white hover:bg-white/10 px-8 py-4 w-full sm:w-auto"
             >
               {t("learn_more")}
             </Button>
@@ -93,6 +101,9 @@ const HeroSection = () => {
         </div>
       </div>
     </motion.div>
+
+
+
       <About1 />
       <Service1 />
       <Service2 />
